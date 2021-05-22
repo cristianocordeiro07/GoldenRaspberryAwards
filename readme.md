@@ -1,19 +1,19 @@
 # Golden Raspberry Awards
 
-##Objetivos:
+## Objetivos:
 - Carga de dados a partir de um arquivo CSV, de filmes indicados e vencedores
   da categoria Pior Filme do Golden Raspberry Awards;
 - API RESTFull disponibilizando os produtores que ganharam o prêmio mais de uma vez, mostrando o menor e o maior intervalo entre prêmios consecutivos. 
 
-##Tecnologias utilizadas:
+## Tecnologias utilizadas:
 - Java 11
 - Spring Boot
 - Banco de dados H2
 
-##Testes de Integração:
+## Testes de Integração:
 - Testes de integração disnibilizados na classe `GoldenRaspberryAwardsApplicationTests`;
 
-##Instruções para execução:
+## Instruções para execução:
 - Executar por uma IDE, ou através de servidor de aplicação;
 - Para gerar o war, usar o comando `mvn clean package`. O arquivo será disponbilizado em: `Pasta do projeto\target`;
 - O arquivo conténdo os dados dos filmes deve ser parametrizado no arquivo `application.properties`, propriedade `app.worstMovies.filePath`. (O valor padrão está configurado como `C:\temp\movielist.csv`);
