@@ -11,7 +11,7 @@
 - Banco de dados H2
 
 ## Testes de Integração:
-- Testes de integração disnibilizados na classe `GoldenRaspberryAwardsApplicationTests`;
+- Testes de integração disponibilizados na classe `GoldenRaspberryAwardsApplicationTests`;
 
 ## Instruções para execução:
 - Executar por uma IDE, ou através de servidor de aplicação;
