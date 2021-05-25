@@ -92,9 +92,9 @@ public class WorstMovieServiceImpl implements WorstMovieService {
                     String producers = readerObject[3];
 
                     //1- padronizamos para separar todos por ','
-                    producers = producers.replace(", and ", ", ");
-                    producers = producers.replace(" and ", ", ");
-                    producers = producers.replace(", ", ",");
+                    producers = producers.replaceAll(", and ", ", ");
+                    producers = producers.replaceAll(" and ", ", ");
+                    producers = producers.replaceAll(", ", ",");
 
                     //2- adicionamos tudo na lista de produtores
                     List<String> producerList = new ArrayList<>(Arrays.asList(producers.split(",")));
